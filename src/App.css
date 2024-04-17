@@ -1,0 +1,86 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  /* background-color: cadetblue; */
+}
+.maincontainer
+{
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  padding: 2%;
+  /* background-color: burlywood !important; */
+  text-align: center;
+}
+.agetitle
+{
+  background-color: peachpuff;
+  font-size: 3rem;
+  font-weight: 600;
+  border-radius: 50%;
+  border-style: solid;
+  box-shadow: inset 0px 0px 20px black;
+  border-color: lightcoral;
+  padding: 1%;
+}
+.divforbirthdate
+{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin-top: 9%;
+}
+.birthdate
+{
+  width: 100%; 
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 1%;
+  margin-left: 1% ;
+  background-color: tan;
+  border-style: ridge;
+  border-color: black;
+}
+.datebox
+{
+ width: 100%;
+ height: 100%;
+ padding-top: 1.5%;
+ padding-bottom: 1.5%;
+  margin-top: 2%;
+  border-style: ridge;
+  border-color: black;
+  background-color: peachpuff;
+}
+.buttonfinal
+{
+  width: 50%;
+  height: 100%;
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
+   margin-top: 2%;
+   border-style: ridge;
+   border-color: black;
+   text-align: center;
+   cursor: pointer;
+   background-color: orchid; 
+}
+.error
+{
+  text-align: center;
+  color: red;
+  padding-top: 2%;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+.result
+{
+  font-size: 1.5rem;
+  font-weight: 550;
+  text-align: center;
+  color: green;
+  padding-top: 2%;
+}
